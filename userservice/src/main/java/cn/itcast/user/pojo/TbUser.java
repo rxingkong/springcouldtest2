@@ -1,19 +1,31 @@
 package cn.itcast.user.pojo;
 
-import java.util.Date;
+import lombok.Data;
+import tk.mybatis.mapper.annotation.KeySql;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+import java.util.Date;
+@Table(name = "tb_user")
+/*//@Data*/
 public class TbUser {
-    private Integer id;
+    @Id
+    @KeySql(useGeneratedKeys = true)
+    private Long id;
     private String username;
     private String password;
     private String phone;
     private Date created;
 
-    public Integer getId() {
+    public TbUser() {
+    }
+
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -48,4 +60,5 @@ public class TbUser {
     public void setCreated(Date created) {
         this.created = created;
     }
+
 }
