@@ -13,6 +13,9 @@ public class TbUser {
     private String phone;
     private Date created;
 
+    public TbUser() {
+    }
+
     public Long getId() {
         return id;
     }
@@ -69,4 +72,5 @@ public class TbUser {
     public int hashCode() {
         return Objects.hash(id, username, password, phone, created);
     }
+
 }
