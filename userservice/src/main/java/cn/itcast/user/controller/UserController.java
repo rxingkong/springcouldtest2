@@ -16,6 +16,7 @@ import java.util.Map;
 public class UserController {
     @Autowired
     private UserService userService;
+
     @GetMapping("/{id}")
    /* public Map<String,Object> seleId(Long id){
         Map<String,Object> map = new HashMap<>();
@@ -31,7 +32,7 @@ public class UserController {
         return map;
     }*/
 
-   public TbUser seleId(@PathVariable("id") Long id){
-       return userService.queryById(id);
+    public TbUser seleId(@PathVariable("id") Long id) {
+        return userService.queryById(id);
     }
 }
