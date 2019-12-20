@@ -22,9 +22,10 @@ public class ConsumerController {
 
     @GetMapping("/{id}")
     public TbUser queryById(@PathVariable("id") Long id) {
-        List<ServiceInstance> instances = discoveryClient.getInstances("user-service");
+        /*List<ServiceInstance> instances = discoveryClient.getInstances("user-service");
         ServiceInstance serviceInstance = instances.get(0);
-        String url = "http://"+serviceInstance.getHost()+":"+serviceInstance.getPort()+"/user/" + id;
+        String url = "http://"+serviceInstance.getHost()+":"+serviceInstance.getPort()+"/user/" + id;*/
+        String url = "http://user-service/user/" + id;
         TbUser tbUser = restTemplate.getForObject(url, TbUser.class);
         return tbUser;
     }
