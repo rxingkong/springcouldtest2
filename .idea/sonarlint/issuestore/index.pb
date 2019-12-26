@@ -19,3 +19,19 @@ Z
 *userservice/target/classes/application.yml,c\c\cce9df6941cd48db40da9f1b8178f23fdeacde65
 n
 >consumer-demo/src/main/java/cn/itcast/ConsumerApplication.java,7\8\78a5c465a81af0460723e44a549330e88cebf0e4
+O
+consumer-demo/consumer-demo.iml,a\6\a6f17fc5e29617e59587bb630ce31d02107e37f9
+E
+consumer-demo/pom.xml,1\a\1a186bf70a301a0069bbfe8d7e3ccbd6db5eb7c5
+h
+8.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml,d\5\d5a1e82540136a92325c9bf4761d1cc36ecf3d6d
+u
+Euserservice/src/main/java/cn/itcast/user/service/UserServiceImpl.java,3\d\3d5052e0206c12482da2dd01b9cda505e9bd1c91
+E
+eureka-server/pom.xml,b\3\b39ae52d769ea03b699b5602439afd875433c8a7
+h
+8userservice/src/main/java/cn/itcast/UserApplication.java,5\8\58a4b248f56e5d07887af0be0b74d889710f3cd4
+u
+Econsumer-demo/src/main/java/cn/itcast/comsumer/client/UserClient.java,4\a\4a49749e0f295075b8c299163b557db985a9e12c
+y
+Iconsumer-demo/src/main/java/cn/itcast/comsumer/client/UserClientImpl.java,b\1\b1ddc9bc5cf1abbd9b712789f35d5ad22a0b888a

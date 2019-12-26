@@ -12,6 +12,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public TbUser queryById(Long id) {
+
         return userMapper.selectByPrimaryKey(id);
     }
 }

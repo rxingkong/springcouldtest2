@@ -1,2 +1,7 @@
 
-tsquid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "tbUser".(ããÂA
+nsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(Ã«í£ûÿÿÿÿ8‚ÕÂİó-
+isquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(İ²×å8‚ÕÂİó-
+Wsquid:S3400B"9Remove this method and declare a constant for this value.(¬«Ë¹8‚ÕÂİó-
+nsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(Ñ®¶øıÿÿÿÿ8ù¼³Şó-
+nsquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(Ëáë†üÿÿÿÿ8‚ÕÂİó-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÎáëÄÿÿÿÿÿ8šò°Şó-

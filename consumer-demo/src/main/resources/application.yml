@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8087
 spring:
   application:
     name: consumer-service
@@ -9,5 +9,18 @@ eureka:
       defaultZone: http://127.0.0.1:10086/eureka,http://127.0.0.1:10087/eureka
     registry-fetch-interval-seconds: 30
 #user-service:
-#  ribbon:```````
+#  ribbon:
 #    NFLoadBalancerRuleClassName: com.netFlix.loadbalancer.RandomRule
+feign:
+  hystrix:
+    enabled: true
+ribbon:
+  ConnectionTimeOut: 500
+  ReadTimeOut: 2000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000

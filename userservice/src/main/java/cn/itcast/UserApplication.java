@@ -8,7 +8,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 @MapperScan("cn.itcast.user.mapper")
 public class UserApplication {
-    public static void main(String[] args){
-        SpringApplication.run(UserApplication.class,args);
+    public static void main(String[] args) {
+        SpringApplication.run(UserApplication.class, args);
     }
 }
